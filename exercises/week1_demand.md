@@ -69,7 +69,9 @@ Implement at least **2 visualizations** in [exercises/week1_plot.py](week1_plot.
 
 ## Task 3: Write Report
 
-Write a **2-page report** giving an overview of the Winterthur transport network and the demand in the network, including how the demand is processed for consideration in the line planning model.
+Write a **2 to 4-page report** giving an overview of the Winterthur transport network and the demand in the network, including how the demand is processed for consideration in the line planning model.
+
+**Important:** This report forms the foundation of your course documentation. Each week, you will extend this same report with new sections, building a cohesive story that connects all aspects of the line planning problem. By the end of the course, you will submit one complete report with a unified narrative covering demand analysis, network modeling, optimization formulation, and scenario analysis.
 
 ### Network and Demand Overview
 
@@ -116,7 +118,7 @@ Submit the following files:
 - [ ] [src/openbus_light/model/scenario.py](../src/openbus_light/model/scenario.py) - Implemented consistency check method
 - [ ] [test/test_demand.py](../test/test_demand.py) - Implemented 2 unit tests and 2 additional tests
 - [ ] [exercises/week1_plot.py](week1_plot.py) - Implemented min. 2 visualization functions
-- [ ] `exercises/week1_report.pdf` - 2-page report with analysis and visualizations
+- [ ] `exercises/week1_report.pdf` - 2 to 4-page report with analysis and visualizations
 - [ ] All tests pass: `test_scenario.py` and `test_demand.py`
 
 ## Grading Rubric (25% of Final Grade)

@@ -107,19 +107,22 @@ Public transport demand doubles.
 
 ## Task 3: Analysis and Report
 
-Write a **2-page technical report** analyzing your scenario and its implications for line planning. Describe clearly which changes you have made.
+Write a **2 to 4-page technical report** analyzing your scenario and its implications for line planning. Describe clearly which changes you have made.
+
+**Important:** This is the final extension of your course report. Add a new section to your existing document (Weeks 1-3) that presents your scenario analysis. Your complete report should now tell the full story: demand and network (Weeks 1-2), optimization model (Week 3), and practical application through scenario analysis (Week 4). This comprehensive document will be your final submission for this part of the course.
 
 **Format:**
-- PDF format, maximum 2 pages
+- PDF format, 2 to 4 pages (+ report from other weeks)
 - Professional presentation with clear figures and tables
 - All visualizations must have captions and axis labels
+- Ensure a coherent narrative throughout all sections
 
 ## Deliverables
 
 Submit the following files:
 
 - [ ] [exercises/week4_experiments.py](week4_experiments.py) - Your experiment script (should run on your git repo)
-- [ ] `exercises/week4_report.pdf` - 2-page technical report with analysis
+- [ ] `exercises/week4_report.pdf` - Complete technical report (final submission including all weeks)
 - [ ] All experiments run successfully and generate results
 
 ## Grading Rubric (25% of Final Grade)

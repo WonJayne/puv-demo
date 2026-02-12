@@ -120,7 +120,9 @@ Each test function includes docstrings with hints to guide your implementation. 
 
 ## Task 3: Write a Technical Report
 
-Write a max. 2-page technical report explaining the passenger flow network structure. Your goal is to help a peer student understand how the network models passenger movement and why it's designed this way.
+Write a **2 to 4-page technical report** explaining the passenger flow network structure. Your goal is to help a peer student understand how the network models passenger movement and why it's designed this way.
+
+**Important:** This report extends your Week 1 report. Add a new section to your existing document that builds on the demand analysis from Week 1. Ensure a coherent narrative that connects demand patterns to the network representation used for optimization.
 
 **Requirements**:
 - Explain the 4 node types and why each is needed
@@ -130,7 +132,7 @@ Write a max. 2-page technical report explaining the passenger flow network struc
 - Describe limitations of the structure of the implemented passenger flow network and suggest possible improvements
 
 **Format**:
-- PDF format, maximum 2 pages
+- PDF format, 2 to 4 pages total (+ Week 1 content)
 - Illustrations can be hand-drawn or digital
 
 You have freedom to decide how to structure your explanations and what aspects to emphasize.

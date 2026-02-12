@@ -121,7 +121,9 @@ Each test function includes a docstrings to guide your implementation. For calcu
 
 ## Task 4: Write Technical Report
 
-Write a **2-page technical report** explaining the MILP formulation.
+Write a **2 to 4-page technical report** explaining the MILP formulation.
+
+**Important:** This report extends your Week 1-2 report. Add a new section to your existing document that explains the optimization model. Your report should now tell a complete story: from demand and network representation (Weeks 1-2) to the mathematical optimization of line planning (Week 3).
 
 **Required Content:**
 
@@ -153,7 +155,7 @@ Write a **2-page technical report** explaining the MILP formulation.
 - Describe the limitations of the line planning model formulation and suggest possible improvements
 
 
-**Format**: PDF, maximum 2 pages
+**Format**: PDF, 2 to 4 pages (+ Weeks 1-2 content)
 
 ## Testing Your Implementation
 
@@ -178,7 +180,7 @@ Submit the following files:
 
 - [ ] [src/openbus_light/plan/problem.py](../src/openbus_light/plan/problem.py) - Implemented `_add_capacity_constraints()` and `_add_flow_conservation_constraints()`
 - [ ] [test/test_problem.py](../test/test_problem.py) - Implemented missing tests and all tests pass
-- [ ] `exercises/week3_report.pdf` - 2-page technical report explaining the MILP formulation
+- [ ] `exercises/week3_report.pdf` - 2 to 4-page technical report explaining the MILP formulation (+ previous weeks reports)
 - [ ] Model successfully solves the Winterthur scenario
 
 ## Grading Rubric (25% of Final Grade)
