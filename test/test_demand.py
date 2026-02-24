@@ -32,3 +32,30 @@ def test_zero_association_radius_no_demand() -> None:
 
     # Verify that no demand is captured
     assert total_demand == 0.0
+
+
+def test_all_od_pairs_cover_full_matrix(simple_scenario: Scenario) -> None:
+    """Ensure all origin-destination entries are exposed by all_od_pairs.
+
+    This is meaningful because downstream plotting and reporting code iterates
+    over this flattened representation. If entries are skipped, aggregate
+    demand statistics become incorrect.
+    """
+    od_pairs = simple_scenario.demand_matrix.all_od_pairs()
+    number_of_stations = len(simple_scenario.stations)
+
+    assert len(od_pairs) == number_of_stations**2
+
+
+def test_between_matches_nested_matrix(simple_scenario: Scenario) -> None:
+    """Check that between() returns the same values as the nested matrix storage.
+
+    This is meaningful because between() is the primary API used in model and
+    analysis code. Ensuring exact lookup behavior prevents silent inconsistencies
+    between direct dictionary access and the public method.
+    """
+    demand_matrix = simple_scenario.demand_matrix
+
+    for origin, demands_to_destinations in demand_matrix.matrix.items():
+        for destination, expected_flow in demands_to_destinations.items():
+            assert demand_matrix.between(origin, destination) == expected_flow
